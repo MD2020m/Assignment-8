@@ -9,35 +9,120 @@
     <link rel="stylesheet" href ="./css/style.css">
 </head>
 <body>
-    <h1 class="text-center mt-4">YOUR QUIZ TITLE HERE</h1>
+   <h1 class="text-center mt-4">Are You Aragorn or Boromir?</h1>
     
     <!-- Start quiz element -->
-    <div class="container d-flex justify-content-center" id="question-1">
+    <div class="container d-flex justify-content-center question-container" id="question-1">
       <div class="card my-4 p-4 question-block" style="width: 75%;">
-        <h4 class="mb-3">YOUR QUIZ QUESTION HERE</h4>
+        <h4 class="mb-3">Would you prefer a gritty, solitary life as a sentinal, roaming northern forests and mountains or an exciting life as a noble soldier defending a great city?
+        </h4>
         <div class="row g-2">
           <div class="col-6">
-            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="A">ANSWER CHOICE A</button>
+            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="A">Adventure and unsung heroism at the edge of the world! I'll take the northern forests for sure!</button>
           </div>
           <div class="col-6">
-            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="B">ANSWER CHOICE B</button>
+            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="B">Ew! I hate the outdoors! I'm much more suited to city life myself.</button>
           </div>
           <div class="col-6">
-            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="C">ANSWER CHOICE C</button>
+            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="A">The trappings of nobility and city life don't suit me. I'd rather roam the northern reaches.</button>
           </div>
           <div class="col-6">
-            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="D">ANSWER CHOICE D</button>
+            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="B">Wandering the woods alone sounds lonely. I'd rather be the celebrated hero of the city!</button>
+          </div>
+        </div>
+      </div>
+    </div>  
+    <!-- End quiz element -->
+
+    <!-- Add more quiz elements here -->
+    <div class="container d-flex justify-content-center question-container" id="question-2">
+      <div class="card my-4 p-4 question-block" style="width: 75%;">
+        <h4 class="mb-3">If you were offered a terrible, corrupting power, would you take it?
+        </h4>
+        <div class="row g-2">
+          <div class="col-6">
+            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="A">
+              What good is ultimate power if it corrupts my very will? Best to leave it alone or maybe work to destroy it"
+            </button>
+          </div>
+          <div class="col-6">
+            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="B">
+              Enemies lurk all around, gaining strength each day. Why not take this power? Why not wield it?
+            </button> 
+          </div>
+          <div class="col-6">
+            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="A">
+              No one can wield such a power! It would destroy anyone who might try. I can't accept it.
+            </button>
+          </div>
+          <div class="col-6">
+            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="B">
+              Corrupting? Nah, I'm different. Perhaps I'm the only one who can handle this power. I'll take it for myself.
+            </button>
           </div>
         </div>
       </div>
     </div>
 
-    
-    
-    <!-- End quiz element -->
+    <div class="container d-flex justify-content-center question-container" id="question-3">
+      <div class="card my-4 p-4 question-block" style="width: 75%;">
+        <h4 class="mb-3">
+          If your friend carried a great, burdensome treasure, what would you do?
+        </h4>
+        <div class="row g-2">
+          <div class="col-6">
+            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="A">
+              A burden is no treasure. And I do not envy the one who carries such a thing. I will do all that I can to lighten the load
+            </button>
+          </div>
+          <div class="col-6">
+            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="B">
+              Why should anyone else carry this treasure? It should be mine, my own! I'll take it for myself.
+            </button>
+          </div>
+          <div class="col-6">
+            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="A">
+              My friend suffers under the weight of this burden. It is my duty to give all that I can to be of aid.
+            </button>
+          </div>
+          <div class="col-6">
+            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="B">
+              Why should anyone else bear this burden? I am the only one strong enough to bear it. I will carry it. I will take it for myself
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    <!-- Add more quiz elements here -->
-
+    <div class="container d-flex justify-content-center question-container" id="question-4">
+      <div class="card my-4 p-4 question-block" style="width: 75%;">
+        <h4 class="mb-3">
+          Does Gondor have a king?
+        </h4>
+        <div class="row g-2">
+          <div class="col-6">
+            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="A">
+              The heir to the throne is out there. Perhaps one day he will reclaim his kingdom in order to lead the land to peace and prosperity
+            </button>
+          </div>
+          <div class="col-6">
+            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="B">
+              There hasn't been a king in Gondor for generations! The land is nobly lead and protected by its steward. Kings are a thing of the past in Gondor.
+            </button>
+          </div>
+          <div class="col-6">
+            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="A">
+              One day, a worthy member of the royal line may return to Gondor. It will be his duty to sit the throne and righteously lead Gondor's people
+            </button>
+          </div>
+          <div class="col-6">
+            <button class="btn btn-outline-primary w-100 answer-btn" data-answer="B">
+              Gondor has no king. Gondor needs no king.
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
     <div class="container d-flex justify-content-center">
