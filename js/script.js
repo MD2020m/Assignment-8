@@ -24,6 +24,9 @@ questions.forEach(function(question) {
 // Define displayResult() function to process user responses and display the appropriate result
 function displayResult() {
 
+    // Get the textContext object we'll need to alter to show results
+    let resultText = document.getElementById("result-text");
+
     // Declare and assign variables for each possible output
     incompleteText = "Please complete the quiz click 'Show Results' again";
     aragornText = "Maybe you're a rugged ranger suited for the northern wilds. Maybe you have the humility to reject a dangerous power or the loyalty to come to the aid of a friend. Or maybe you know the true king of Gondor is the heir of Isildur. You're Aragorn through and through.";
@@ -63,6 +66,9 @@ function displayResult() {
     let resCont =  document.getElementById("result-container");
     resCont.style.display = "";
 };
+
+// Access Show Results Button:
+    let showRes = document.getElementById("show-result");
 
 // Add event listener to the button and call displayResult()
 showRes.addEventListener("click", function() {
